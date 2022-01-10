@@ -1,0 +1,11 @@
+{
+  "extends": "react-app",
+  "globals": {
+    "__DEV__": true,
+    "__PROFILE__": true,
+    "__UMD__": true,
+    "__EXPERIMENTAL__": true,
+    "NODE_ENV": true,
+    "BABEL_ENV": true
+  }
+}
