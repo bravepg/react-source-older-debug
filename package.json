@@ -24,6 +24,7 @@
     "eslint": "^8.3.0",
     "eslint-config-react-app": "^7.0.0",
     "eslint-webpack-plugin": "^3.1.1",
+    "fbjs": "^0.8.16",
     "file-loader": "^6.2.0",
     "fs-extra": "^10.0.0",
     "html-webpack-plugin": "^5.5.0",
@@ -59,6 +60,7 @@
   },
   "scripts": {
     "start": "node scripts/start.js",
+    "dev:16.3.0": "REACT_VERSION=v16.3.0 node scripts/start.js",
     "dev:16.13.1": "REACT_VERSION=v16.13.1 node scripts/start.js",
     "dev:17.0.0": "REACT_VERSION=v17.0.0 node scripts/start.js",
     "build": "node scripts/build.js",

@@ -326,6 +326,9 @@ module.exports = function (webpackEnv) {
         'react-reconciler': path.resolve(__dirname, `../src/react/${REACT_VERSION}/packages/react-reconciler`),
         'shared': path.resolve(__dirname, `../src/react/${REACT_VERSION}/packages/shared`),
         'scheduler': path.resolve(__dirname, `../src/react/${REACT_VERSION}/packages/scheduler`),
+
+        // 兼容 v16.3.0
+        'react-events': path.resolve(__dirname, `../src/react/${REACT_VERSION}/packages/events`),
       },
       plugins: [
         // Prevents users from importing files from outside of src/ (or node_modules/).
